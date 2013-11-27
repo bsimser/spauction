@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="SharePointAuction.SharePoint.WebParts.AuctionWebPart.AuctionWebPart, SharePointAuction, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7246e83c03e2ae90" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">SharePoint Auction</property>
+        <property name="Description" type="string">Displays and allows users to navigate items and bid on them.</property>
+        <property name="AllowClose" type="bool">False</property>
+        <property name="AllowHide" type="bool">False</property>
+        <property name="AllowMinimize" type="bool">False</property>
+        <property name="ChromeType" type="chrometype">None</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

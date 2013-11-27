@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{04CA0587-7473-4C21-A557-FD20505B2599}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SharePointAuction</RootNamespace>
+    <AssemblyName>SharePointAuction</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlTemplates\SharePointAuction\AuctionInformation.ascx.cs">
+      <DependentUpon>AuctionInformation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\AuctionInformation.ascx.designer.cs">
+      <DependentUpon>AuctionInformation.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\ConfirmBid.ascx.cs">
+      <DependentUpon>ConfirmBid.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\ConfirmBid.ascx.designer.cs">
+      <DependentUpon>ConfirmBid.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\Home.ascx.cs">
+      <DependentUpon>Home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\Home.ascx.designer.cs">
+      <DependentUpon>Home.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\ItemDetails.ascx.cs">
+      <DependentUpon>ItemDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\ItemDetails.ascx.designer.cs">
+      <DependentUpon>ItemDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\ItemGrid.ascx.cs">
+      <DependentUpon>ItemGrid.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\ItemGrid.ascx.designer.cs">
+      <DependentUpon>ItemGrid.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\LeftHandNav.ascx.cs">
+      <DependentUpon>LeftHandNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\LeftHandNav.ascx.designer.cs">
+      <DependentUpon>LeftHandNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\SalesSummary.ascx.cs">
+      <DependentUpon>SalesSummary.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\SalesSummary.ascx.designer.cs">
+      <DependentUpon>SalesSummary.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\ShowInvite.ascx.cs">
+      <DependentUpon>ShowInvite.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\SharePointAuction\ShowInvite.ascx.designer.cs">
+      <DependentUpon>ShowInvite.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\AuctionItem.cs" />
+    <Compile Include="Core\Constants.cs" />
+    <Compile Include="Core\RunAsAdmin.cs" />
+    <Compile Include="Core\TimeHelper.cs" />
+    <Compile Include="Core\UrlHelper.cs" />
+    <Compile Include="Features\SiteFeature\SiteFeature.EventReceiver.cs">
+      <DependentUpon>SiteFeature.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SharePoint\WebParts\AuctionWebPart\AuctionWebPart.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ControlTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d975e635-cebe-4b8d-8c1e-b75a83b6084c}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\SiteFeature\SiteFeature.feature">
+      <FeatureId>{6e2d382d-5c84-42dd-bcf2-599828d60417}</FeatureId>
+    </None>
+    <None Include="Features\SiteCollectionFeature\SiteCollectionFeature.feature">
+      <FeatureId>{3f61b233-6141-4ad7-832c-2456741951b7}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9e55151f-43f7-433e-8d5f-9475d57c08d1}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{3c0d694c-0f73-4e47-a2bd-85ab329ad1ea}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="SharePoint\WebParts\AuctionWebPart\AuctionWebPart.webpart" />
+    <None Include="SharePoint\WebParts\AuctionWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dc66072b-2e93-4c2c-9bfa-6f30ccccff67}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ControlTemplates\SharePointAuction\AuctionInformation.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\SharePointAuction\ConfirmBid.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\SharePointAuction\Home.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\SharePointAuction\ItemDetails.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\SharePointAuction\ItemGrid.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\SharePointAuction\LeftHandNav.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\SharePointAuction\SalesSummary.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="ControlTemplates\SharePointAuction\ShowInvite.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Features\SiteFeature\SiteFeature.Template.xml">
+      <DependentUpon>SiteFeature.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\SiteCollectionFeature\SiteCollectionFeature.Template.xml">
+      <DependentUpon>SiteCollectionFeature.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\SharePointAuction\css\auction.css" />
+    <Content Include="Layouts\SharePointAuction\img\160x160.gif" />
+    <Content Include="Layouts\SharePointAuction\js\auction.js" />
+    <Content Include="SharePoint\WebParts\AuctionWebPart\Elements.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
+</Project>

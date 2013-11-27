@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3c0d694c-0f73-4e47-a2bd-85ab329ad1ea" solutionId="3c0d694c-0f73-4e47-a2bd-85ab329ad1ea" resetWebServer="false" name="SharePointAuction" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="3f61b233-6141-4ad7-832c-2456741951b7" />
+    <featureReference itemId="6e2d382d-5c84-42dd-bcf2-599828d60417" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="d975e635-cebe-4b8d-8c1e-b75a83b6084c" />
+    <projectItemReference itemId="9e55151f-43f7-433e-8d5f-9475d57c08d1" />
+  </projectItems>
+</package>

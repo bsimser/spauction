@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="SharePoint Auction Site Features" Id="ee0908e9-14b0-43dc-932d-cb351c47b3bf" ReceiverAssembly="SharePointAuction, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7246e83c03e2ae90" ReceiverClass="SharePointAuction.Features.SiteFeature.SiteFeatureEventReceiver" Scope="Web"></Feature>
