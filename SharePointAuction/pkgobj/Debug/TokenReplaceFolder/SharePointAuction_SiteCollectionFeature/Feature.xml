@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="SharePoint Auction Site Collection Features" Id="4f8f40c1-41d5-480d-bda4-b29471b29354" Scope="Site">
-  <ElementManifests>
-    <ElementManifest Location="AuctionWebPart\Elements.xml" />
-    <ElementFile Location="AuctionWebPart\AuctionWebPart.webpart" />
-  </ElementManifests>
-</Feature>

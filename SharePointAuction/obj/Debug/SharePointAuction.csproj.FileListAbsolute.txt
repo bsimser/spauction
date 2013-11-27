@@ -1,6 +1,0 @@
-c:\projects\SharePointAuction\SharePointAuction\bin\Debug\SharePointAuction.dll
-c:\projects\SharePointAuction\SharePointAuction\bin\Debug\SharePointAuction.pdb
-c:\projects\SharePointAuction\SharePointAuction\bin\Debug\Microsoft.Sharepoint.Sandbox.dll
-c:\projects\SharePointAuction\SharePointAuction\obj\Debug\ResolveAssemblyReference.cache
-c:\projects\SharePointAuction\SharePointAuction\obj\Debug\SharePointAuction.dll
-c:\projects\SharePointAuction\SharePointAuction\obj\Debug\SharePointAuction.pdb

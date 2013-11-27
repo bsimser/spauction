@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
-  <Module Name="AuctionWebPart" List="113" Url="_catalogs/wp">
-    <File Path="AuctionWebPart\AuctionWebPart.webpart" Url="AuctionWebPart.webpart" Type="GhostableInLibrary">
-      <Property Name="Group" Value="SharePoint Auction" />
-    </File>
-  </Module>
-</Elements>
